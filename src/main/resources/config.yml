@@ -1,0 +1,8 @@
+# All strings/text support ChatColor and PlaceholderAPI (if you have it installed)
+
+item:
+  type: DIAMOND_PICKAXE
+  name: '&6Automatic Smelter!'
+  lore:
+    - '&aThis pickaxe will smelt for you!'
+message-to-player-sent: 'You have received a pickaxe that mines by itself!' # Put to empty to disable

@@ -1,0 +1,25 @@
+main: me.dkim19375.pickaxesmelter.PickaxeSmelter
+name: PickaxeSmelter
+version: ${pluginVersion}
+description: A plugin that gives you smelted blocks when mined
+author: dkim19375
+depend: [ NBTAPI ]
+
+commands:
+  pickaxesmelter:
+    description: Main command
+    aliases:
+      - pickaxe
+      - smelter
+      - ps
+      - psmelter
+    usage: /pickaxesmelter help
+permissions:
+  pickaxesmelter.command:
+    description: Allows you to run the command
+  pickaxesmelter.reload:
+    description: Allows you to reload the config file
+  pickaxesmelter.give:
+    description: Allows you to give a the pickaxe
+  pickaxesmelter.check:
+    description: Allows you to check if someone has the pickaxe
