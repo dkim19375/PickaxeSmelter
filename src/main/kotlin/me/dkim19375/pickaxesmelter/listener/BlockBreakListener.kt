@@ -30,7 +30,9 @@ class BlockBreakListener : Listener {
     private val blockMap = mapOf(
         Material.COBBLESTONE to Material.STONE,
         Material.IRON_ORE to Material.IRON_INGOT,
-        Material.GOLD_ORE to Material.GOLD_INGOT
+        Material.GOLD_ORE to Material.GOLD_INGOT,
+        Material.SAND to Material.GLASS,
+        Material.NETHERRACK to Material.NETHER_BRICK_ITEM
     )
 
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)

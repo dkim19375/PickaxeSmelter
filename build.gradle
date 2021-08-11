@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'me.dkim19375'
-version = '1.0.0'
+version = '1.0.1'
 
 //noinspection GroovyAssignabilityCheck
 tasks.withType(JavaCompile) {
