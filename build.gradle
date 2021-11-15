@@ -55,7 +55,7 @@ dependencies {
     implementation('io.github.dkim19375:dkim-bukkit-core:3.3.25') {
         exclude group: 'org.jetbrains.kotlin'
     }
-    implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31') {
+    implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0') {
         exclude module: 'annotations'
     }
 }
