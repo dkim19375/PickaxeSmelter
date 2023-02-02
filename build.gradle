@@ -1,6 +1,6 @@
 plugins {
     id 'com.github.johnrengelman.shadow' version '6.1.0'
-    id 'org.jetbrains.kotlin.jvm' version '1.8.0'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.10'
     id 'org.cadixdev.licenser' version '0.6.1'
 }
 
