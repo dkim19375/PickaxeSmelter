@@ -1,6 +1,6 @@
 plugins {
     id 'com.github.johnrengelman.shadow' version '8.1.1'
-    id 'org.jetbrains.kotlin.jvm' version '1.8.10'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.20'
     id 'org.cadixdev.licenser' version '0.6.1'
 }
 
@@ -9,6 +9,8 @@ version = '1.0.1'
 
 //noinspection GroovyAssignabilityCheck
 tasks.withType(JavaCompile) {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
     options.encoding = 'UTF-8'
 }
 
@@ -55,7 +57,7 @@ dependencies {
     implementation('io.github.dkim19375:dkim-bukkit-core:3.3.45') {
         exclude group: 'org.jetbrains.kotlin'
     }
-    implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10') {
+    implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20') {
         exclude module: 'annotations'
     }
 }
