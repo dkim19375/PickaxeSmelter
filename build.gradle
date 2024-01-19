@@ -54,7 +54,7 @@ dependencies {
     compileOnly 'de.tr7zw:item-nbt-api-plugin:2.12.2'
     compileOnly 'org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT'
 
-    implementation('io.github.dkim19375:dkim-bukkit-core:3.4.6') {
+    implementation('io.github.dkim19375:dkim-bukkit-core:3.4.7') {
         exclude group: 'org.jetbrains.kotlin'
     }
     implementation('org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.22') {
